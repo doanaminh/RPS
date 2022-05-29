@@ -1,0 +1,39 @@
+body{
+  background: gray;
+}
+
+button {
+  border-color: white;
+  background-color: dodgerblue;
+  color:orangered;
+  border-radius: 10px;
+  min-height: 40px;
+  min-width: 100px;
+}
+
+h1, h2, h3{
+  color: white;
+}
+
+.game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(219, 116, 116, 0.4);
+  width: 100%;
+}
+
+.btnWrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.choiceWrap {
+  display: flex;
+  justify-content:space-between;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
